@@ -1,0 +1,126 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: left;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #111;
+  color: #fff;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px; 
+  width: 25%;
+  justify-content: flex-start;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s ease-in-out;
+}
+
+.nav-links a:hover {
+  color: #ddd;
+}
+
+.logout-button {
+  background-color: #ff4d4d;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  width: auto; 
+  min-width: 100px; 
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.logout-button:hover {
+  background-color: #cc0000;
+}
+
+button {
+  background-color: #ff4d4d;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  width: auto; 
+  min-width: 80px; 
+  text-align: center;
+  box-sizing: border-box; 
+}
+
+button:hover {
+  background-color: #cc0000;
+}
+
+.article-button {
+  background-color: #ff4d4d;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  width: auto;
+  min-width: 100px;
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.article-button:hover {
+  background-color: #cc0000;
+}
+
+.article-card1
+{
+  width: 600px;
+  background-color: #111;
+  padding: 20px;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+  text-align: center;
+}
+
+.article-card1:hover {
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+
+.article-card button {
+  margin-top: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.profile-container {
+  width: 300px;
+  background-color: #111;
+  padding: 20px;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+  text-align: center;
+}
+
